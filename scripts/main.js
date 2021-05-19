@@ -1,5 +1,4 @@
-const meuCabecalho = document.querySelector('h1');
-meuCabecalho.textContent = 'Hello world!';
+
 let meuBotao = document.querySelector('button');
 let meuCabecalho = document.querySelector('h1');
 function defineNomeUsuario() {
@@ -21,6 +20,6 @@ function defineNomeUsuario() {
       defineNomeUsuario();
     } else {
       localStorage.setItem('nome', meuNome);
-      meuCabecalho.innerHTML = 'Mozozilla is cool, ' + meuNome;
+      meuCabecalho.innerHTML = 'Mozilla is cool, ' + meuNome;
     }
   }
